@@ -57,7 +57,7 @@
           "replyingTo": "ramsesmiron",
           "user": {
             "image": { 
-              "png": "avatars/image-juliusomo.png",
+              "png": "/avatars/image-juliusomo.png",
               "webp": "/avatars/image-juliusomo.webp"
             },
             "username": "juliusomo"
