@@ -3,7 +3,7 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { comments, currentUser } from '../data.json';
 import { AppDispatch } from './store';
 import { CommentType, ReplyType } from './types';
-import * as dayjs from 'dayjs'
+import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime'
 
 dayjs.extend(relativeTime)
