@@ -34,6 +34,11 @@ export default {
       },
       fontFamily: {
         'sans': ['Rubik', 'sans-serif']
+      },
+      transitionDelay: {
+        100: '100ms',
+        200: '200ms',
+        300: '300ms',
       }
     },
   },
