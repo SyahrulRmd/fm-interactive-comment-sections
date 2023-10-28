@@ -38,9 +38,9 @@ function App() {
               <motion.div
                 key={key}
                 layout
-                initial={{ opacity: 0, scale: 0.9 }}
-                animate={{ opacity: 1, scale: 1 }}
-                exit={{ opacity: 0, scale: 0.9 }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
                 transition={{ ease: 'easeIn', duration: 0.5, delay: key * 0.1, type: 'spring' }}
               >
                 <Comment comment={comment} />
